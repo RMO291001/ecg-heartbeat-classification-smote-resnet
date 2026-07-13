@@ -29,9 +29,9 @@ This repository implements a Deep Convolutional Neural Network (1-D ResNet) to a
 ## 📖 Comprehensive Documentation
 
 This repository is heavily documented to support onboarding and research:
-- **[Project Full Context](project_full_context.md)**: A complete, 95% self-contained technical knowledge base containing reading orders, codebase explanations, rationales, and deep dives.
-- **[Theory Handbook](ECG_Heartbeat_Classification_Theory_Handbook.pdf)**: A beginner-friendly, 32-page illustrated PDF guide meant for viva preparation, presentation support, and concept review.
-- **[Presentation Slides](ECG_Presentation_Final.pptx)**: An IEEE-style professional presentation deck summarizing the findings.
+- **[Project Full Context](docs/project_full_context.md)**: A complete, 95% self-contained technical knowledge base containing reading orders, codebase explanations, rationales, and deep dives.
+- **[Theory Handbook](docs/ECG_Heartbeat_Classification_Theory_Handbook.pdf)**: A beginner-friendly, 32-page illustrated PDF guide meant for viva preparation, presentation support, and concept review.
+- **[Presentation Slides](presentations/ECG_Heartbeat_Classification_Final.pptx)**: An IEEE-style professional presentation deck summarizing the findings.
 
 ## 📁 Repository Structure
 
@@ -39,9 +39,15 @@ This repository is heavily documented to support onboarding and research:
 ECG_Project/
 ├── data/                      # Dataset folder (CSV files are ignored by git)
 │   └── README.md              # Instructions for downloading data
+├── docs/                      # Comprehensive technical documentation & handbooks
+│   ├── ECG_Heartbeat_Classification_Theory_Handbook.pdf
+│   └── project_full_context.md
 ├── notebooks/                 # Jupyter notebooks for experimentation
 │   ├── Person_A_Baseline.ipynb 
 │   └── Person_B_SMOTE.ipynb
+├── presentations/             # IEEE-style professional presentation decks
+│   ├── ECG_Heartbeat_Classification_Final.pptx
+│   └── ECG_Heartbeat_Classification_Proposal.pptx
 ├── results/                   # Experimental evidence
 │   ├── figures/               # Generated graphs and confusion matrices
 │   ├── models/                # Saved .keras model binaries
@@ -49,9 +55,6 @@ ECG_Project/
 ├── src/                       # Core source code
 │   ├── data.py                # Data loading and reshaping logic
 │   └── model.py               # 1-D ResNet architecture definition
-├── project_full_context.md    # Complete technical documentation
-├── ECG_Heartbeat_Classification_Theory_Handbook.pdf
-├── ECG_Presentation_Final.pptx
 └── README.md
 ```
 
