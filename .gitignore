@@ -5,6 +5,7 @@ data/*.csv
 ECG_Classification.ipynb
 ECG_Heartbeat_Classificat_on_A_Deep_Transferable_Representation.md
 plan.md
+docs/Project_Report.docx
 
 # Python
 __pycache__/
